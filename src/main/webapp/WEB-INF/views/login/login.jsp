@@ -1,9 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-<!doctype html>
-<html lang="pt-br">
-  <head>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
+<!doctype html>
+
+<html lang="pt-br">
+  
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -11,7 +14,7 @@
 
 
 
-<link rel="stylesheet" type="text/css" href="..views/login/resources/login.css">
+<link rel="stylesheet" type="text/css" href="resources/login/css/login.css">
 
     <title>Login</title>
   </head>
