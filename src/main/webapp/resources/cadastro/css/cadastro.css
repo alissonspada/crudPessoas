@@ -1,0 +1,90 @@
+
+h11{
+  color: red;
+}
+
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  color: #323232;
+  border: none;
+}
+
+
+body {
+  padding-top: 5vh;
+  background-image: url('../img/luan.jpg');
+  background-size: cover;
+  background-position-y: -150px;
+}
+
+
+.div1 {
+margin-right: 130px;
+margin-top: 24px;
+}
+
+.div2 {
+  padding-left: 180px;
+  position: relative;
+}
+
+#container {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FFF;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+
+
+
+.inputs {
+  display: none;
+}
+
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.full-box {
+  flex: 1 1 100%;
+  position: relative;
+}
+
+.half-box {
+  flex: 1 1 70%;
+  position: relative;
+}
+
+
+
+
+label, span {
+  font-weight: bold;
+  font-size: .8rem;
+}
+
+
+
+input, span {
+  padding: 10px;
+  font-size: .9rem;
+  margin-bottom: 40px;
+}
+
+input, span:focus {
+  border-color: #ffd700;
+}
+
+
+
