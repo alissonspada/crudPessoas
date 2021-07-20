@@ -22,6 +22,9 @@
   
 </head>
 <body>
+<div class="alert alert-success hide" id="alerta-sucesso" role="alert">
+	Cliente cadastrado com sucesso
+</div>
   <div id="container">
     <h1>Cadastre-se para acessar o sistema</h1>
     <form name="cliente" id="register-form"  method="post" action="/cadastrar">
@@ -97,7 +100,7 @@
     </div>
 
     <div class="form-group">
-  <label class="col-md-2 control-label" for="prependedtext">Rua</label>
+  <label class="col-md-2 control-label" id="cadastro-sucesso" for="prependedtext">Rua</label>
   <div class="col-md-12">
     <div class="input-group">
       <input id="rua" name="rua" class="form-control" placeholder="" required="" readonly="readonly" type="text">
@@ -143,7 +146,7 @@
    <div class="form-group">
   <label class="col-md-2 control-label" for="Cadastrar" ></label>
   <div class="col-md-8">
-    <button id="Cadastrar" name="Cadastrar" style="margin-left: 70px;" class="btn btn-warning" type="Submit">Cadastrar</button>
+    <button id="cadastrar"  name="Cadastrar" onclick="registrar()" style="margin-left: 70px;" class="btn btn-warning">Cadastrar</button>
     
   </div>
 </div>

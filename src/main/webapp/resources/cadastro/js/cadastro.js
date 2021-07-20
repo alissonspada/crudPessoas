@@ -12,7 +12,30 @@ function mostrarEnd() {
     $("#formulario").append('form2');
 });*/
 
+function registrar() {
 
+    var cliente = {
+        nome: $("#nome").val(),
+        cpf: $("#cpf").val()
+       
+    };
+
+
+    $.ajax(
+    {
+    url: "/cadastrar",
+    type: "POST",
+    data: cliente,
+    success: function(result){
+    	$("#alerta-sucesso").removeClass("hide");
+  
+    },
+    error: function(){
+        console.log("")
+    }
+
+    });
+}
 
   function meu_callback(conteudo) {
         if (!("erro" in conteudo)) {

@@ -12,6 +12,10 @@ h11{
   border: none;
 }
 
+.hide{
+	display: none;
+}
+
 
 body {
   padding-top: 5vh;
