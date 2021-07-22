@@ -1,0 +1,1 @@
+INSERT INTO CLIENTE(nome, sobrenome, cpf) VALUES('nome', 'sobrenome' 'cpf');

@@ -20,7 +20,7 @@ import javax.persistence.Id;
 
 
 	@Id
-	@GeneratedValue(strategy= GenerationType.AUTO)
+	@GeneratedValue(strategy= GenerationType.IDENTITY)
 	private long codigo;
 		
 		
