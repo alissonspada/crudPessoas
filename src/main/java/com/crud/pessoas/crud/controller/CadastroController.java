@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.crud.pessoas.crud.Cliente;
+import com.crud.pessoas.crud.entities.Cliente;
 import com.crud.pessoas.crud.repository.ClienteRepository;
 
 @RestController
@@ -22,11 +22,11 @@ public class CadastroController {
 		}
 		
 		@RequestMapping(value="/cadastrar", method=RequestMethod.POST)
-		public ModelAndView cadastrar(Cliente cliente) {
+		public boolean cadastrar(Cliente cliente) {
+			clienteRepository.save(cliente);
 			
 			
-			
-			return new ModelAndView("cadastro/cadastro");
+			return true;
 			
 		}
 		

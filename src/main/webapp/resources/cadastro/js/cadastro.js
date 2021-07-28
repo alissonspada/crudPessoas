@@ -14,16 +14,24 @@ function mostrarEnd() {
 
 function registrar() {
 
+    var endereco ={
+        rua: $("#rua").val(),
+    }
+
     var cliente = {
+
+        enderecos:[endereco],
+        
         nome: $("#nome").val(),
-        cpf: $("#cpf").val()
+        cpf: $("#cpf").val(),
+
 
     };
 
 
     $.ajax(
     {
-    url: "/cadastro",
+    url: "/cadastrar",
     type: "POST",
     data: cliente,
     success: function(result){

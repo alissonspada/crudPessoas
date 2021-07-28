@@ -6,7 +6,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
-@SpringBootApplication(scanBasePackages = "com.crud.pessoas.crud")
+@SpringBootApplication(scanBasePackages = "com.crud.pessoas.crud, com.crud.entities")
 public class CrudPessoasApplication extends SpringBootServletInitializer{
 
 	

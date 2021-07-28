@@ -143,142 +143,25 @@
       <input id="estado" name="estado" class="form-control" placeholder="" required=""  readonly="readonly" type="text">
   
 
+</form>
+
    <div class="form-group">
   <label class="col-md-2 control-label" for="Cadastrar" ></label>
   <div class="col-md-8">
-    <button id="cadastrar"  name="Cadastrar" onclick="registrar()" style="margin-left: 70px;" class="btn btn-warning">Cadastrar</button>
+    <button id="cadastrar" type="button" name="Cadastrar" onclick="registrar()" style="margin-left: 70px;" class="btn btn-warning">Cadastrar</button>
     
   </div>
 </div>
-</form>
 
 
 
 
 
 
-
-<!--  <form>
-  <div id="formulario" class="form2">
-<input type="checkbox" name="End2" id="End2" value="yes" onclick="mostrarEnd()">
-  <label for="shipsame">Endereço 2</label>
-
-<fieldset id="enderecoEnd" >
-    <div class="form-group">
-  <label class="col-md-2 control-label" for="CEP">CEP<h11>*</h11></label>
-  <div class="col-md-12">
-    <input id="cep" name="cep" placeholder="Apenas números" class="form-control input-md" required="" type="search"  pattern="[0-9]+$" >
-</div>
-  </div>
-  <div class="div1">
-      <button type="button" class="btn btn-primary" onclick="pesquisacep(cep.value)">Pesquisar</button>
-    </div>
-
-  <div class="form-group">
-  <label class="col-md-2 control-label" for="prependedtext">Rua</label>
-  <div class="col-md-12">
-    <div class="input-group">
-      <input id="rua" name="rua" class="form-control" placeholder="" required="" readonly="readonly" type="text">
-    </div>
-  </div>
-</div>
-
-
-    <div class="form-group">
-    <div class="input-group">
-      <div class="col-md-12">
-      <label class="col-md-12 input-group-addon">Nº<h11>*</h11></label>
-      <input id="numero" name="numero" class="form-control" placeholder="" required=""  type="text">
-    </div>
-  </div>
-  </div>
-
-
-<div class="form-group">
-    <div class="col-md-12 input-group">
-      <div class="col-md-12">
-      <label>Bairro</label>
-      <input id="bairro" name="bairro" class="form-control" placeholder="" required="" readonly="readonly" type="text">
-    </div>
-    </div>
-  </div>
-
-   <div class="form-group">
-  <label class="col-md-2 control-label" for="prependedtext" >Cidade</label>
-  <div class="col-md-12" >
-    <div class="input-group">
-      
-      <input id="cidade" name="cidade" class="form-control" placeholder="" required=""  readonly="readonly" type="text">
-    </div>
-  </div>
-
-</div>
-
-   <div class="form-group">
-    <label class="col-md-2">Estado</label>
-    <div class="col-md-12 input-group">
-      <input id="estado" name="estado" class="form-control" placeholder="" required=""  readonly="readonly" type="text">
-    </div>
-  </div>
-*/ -->
-
-
-
-
-</form>
 </div>
 
 
 
-
-
-
-
-
-
-
-
-  
-  
-
-
-</fieldset>
- 
-
- 
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-   
-
-
-  
-
-
-  
 
 
   <p class="error-validation template"></p>
