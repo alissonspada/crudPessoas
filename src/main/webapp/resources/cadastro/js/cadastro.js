@@ -17,18 +17,18 @@ function registrar() {
     var cliente = {
         nome: $("#nome").val(),
         cpf: $("#cpf").val()
-       
+
     };
 
 
     $.ajax(
     {
-    url: "/cadastrar",
+    url: "/cadastro",
     type: "POST",
     data: cliente,
     success: function(result){
-    	$("#alerta-sucesso").removeClass("hide");
-  
+
+    console.log("valeu falow")
     },
     error: function(){
         console.log("")
