@@ -1,6 +1,7 @@
 package com.crud.pessoas.crud.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -22,7 +23,7 @@ public class CadastroController {
 		}
 		
 		@RequestMapping(value="/cadastrar", method=RequestMethod.POST)
-		public boolean cadastrar(Cliente cliente) {
+		public boolean cadastrar(@RequestBody Cliente cliente) {
 			clienteRepository.save(cliente);
 			
 			

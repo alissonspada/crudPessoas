@@ -3,6 +3,7 @@ package com.crud.pessoas.crud.entities;
 import java.io.Serializable;
 import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -25,7 +26,7 @@ import javax.persistence.OneToMany;
 	@GeneratedValue(strategy= GenerationType.IDENTITY)
 	private long codigo;
 	
-	@OneToMany
+	@OneToMany(cascade=CascadeType.PERSIST)
 	private List<Endereco> enderecos;	
 	private String nome;
 	private String sobrenome;
@@ -94,9 +95,6 @@ import javax.persistence.OneToMany;
 	}
 	
 
-	
-	
-	
 	
 	
 	

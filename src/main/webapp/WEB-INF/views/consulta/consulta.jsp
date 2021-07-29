@@ -10,7 +10,7 @@
 	<meta charset="utf-8">
 	<title></title>
 </head>
-<body>
+<body onload="carregaClientes()">
 
 	<div id="main" class="container-fluid">
      <div id="top" class="row">
